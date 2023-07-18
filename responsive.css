@@ -1,0 +1,119 @@
+/* for responsive design */
+
+/* mobile View  */
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        
+    }
+    .logo-container{
+        justify-content: center;
+        margin: auto;
+    }
+    .nav-items ul{
+        flex-direction: column;
+    }
+    .nav-items{
+        width: 100%;
+    }
+    .nav-items ul button{
+        width: 100%;
+        margin: .8rem;
+    }
+
+    .banner-section{
+        flex-direction: column;
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+
+    .banner-image-container{
+        padding: 0;
+        width: 100%;
+    }
+
+    .card-container{
+        grid-template-columns: 1fr;
+        margin: 0 1rem;
+    }
+
+
+    .discount-section{
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .discount-image{
+        width: 80%;
+    }
+
+
+    .discount-content{
+    width:80%;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
